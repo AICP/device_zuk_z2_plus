@@ -148,4 +148,8 @@ on property:dev.bootcomplete=1
     write /proc/sys/vm/dirty_expire_centisecs 10
     write /proc/sys/vm/vfs_cache_pressure 5
 
+# Intellithermal
+    write /sys/module/msm_thermal/core_control/enabled 0
+    write /sys/module/msm_thermal/parameters/enabled Y
+
     setprop sys.io.scheduler "bfq"
