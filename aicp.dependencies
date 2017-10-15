@@ -17,7 +17,7 @@
   {
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
-    "branch": "davidevinavil/android_vendor_zuk_z2_plus"
+    "branch": "lineage-15.0"
   },
   {
     "repository": "davidevinavil/android_vendor_zuk_z2_plus",
