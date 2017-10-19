@@ -1,6 +1,6 @@
 [
   {
-    "repository": "AICP/android_kernel_zuk_msm8996",
+    "repository": "AICP/kernel_zuk_msm8996",
     "target_path": "kernel/zuk/msm8996",
     "branch": "o8.0"
   },
