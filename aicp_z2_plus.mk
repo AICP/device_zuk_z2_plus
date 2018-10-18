@@ -24,10 +24,10 @@ $(call inherit-product, device/zuk/z2_plus/device.mk)
 # Boot animation resolution
 # TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit some common AOSP-OMS stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common AICP stuff.
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_z2_plus
+PRODUCT_NAME := aicp_z2_plus
 PRODUCT_DEVICE := z2_plus
 PRODUCT_MANUFACTURER := ZUK
 PRODUCT_BRAND := ZUK
@@ -46,3 +46,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "ZUK/z2_plus/z2_plus:7.0/NRD90M/3.1.117_171110:user/release-keys"
+
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Faiz Authar (faizauthar12)"
