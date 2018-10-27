@@ -26,6 +26,7 @@ $(call inherit-product, device/zuk/z2_plus/device.mk)
 
 # Inherit some common AICP stuff.
 $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/config/caf_fw.mk)
 
 PRODUCT_NAME := aicp_z2_plus
 PRODUCT_DEVICE := z2_plus
